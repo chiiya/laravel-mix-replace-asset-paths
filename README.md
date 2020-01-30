@@ -24,6 +24,8 @@
       <a href="#usage">usage</a>
       &nbsp; &middot; &nbsp;
       <a href="#options">options</a>
+      &nbsp; &middot; &nbsp;
+      <a href="#example">example</a>
     </strong>
   </p>
 </div>
@@ -32,6 +34,7 @@
 ## Installation
 
 <pre>npm install <a href="https://www.npmjs.com/package/laravel-mix-replace-asset-paths">laravel-mix-replace-asset-paths</a></pre>
+
 ## Usage
 
 ```js
