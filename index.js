@@ -27,7 +27,7 @@ const resolveOptions = async options => {
       console.error(error);
     }
   }
-  return opt;
+  return config;
 };
 
 /**
