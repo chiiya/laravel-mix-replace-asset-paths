@@ -15,8 +15,6 @@
     Useful for static HTML sites outside of a Laravel context.
   </p>
 
-  <br>
-
   <p align="center">
     <strong>
     <a href="#installation">installation</a>
