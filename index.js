@@ -64,7 +64,7 @@ const replaceAssetPaths = async options => {
     );
   }
 
-  const files = getFilePaths(config);
+  const files = await getFilePaths(config);
   const replaceOptions = {
     files: files.map(file => path.join(config.publicPath, file)),
     from: config.pattern,
