@@ -1,6 +1,6 @@
 {
   "name": "laravel-mix-replace-asset-paths",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Replace assets paths with versioned identifiers for static sites",
   "main": "index.js",
   "author": "Elisha Witte <elishawitte@gmail.com>",
