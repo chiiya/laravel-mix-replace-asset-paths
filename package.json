@@ -4,6 +4,9 @@
   "description": "Replace assets paths with versioned identifiers for static sites",
   "main": "index.js",
   "author": "Elisha Witte <elishawitte@gmail.com>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "license": "MIT",
   "devDependencies": {
     "fs-extra": "^8.1.0"
