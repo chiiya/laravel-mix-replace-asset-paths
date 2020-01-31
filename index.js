@@ -71,7 +71,7 @@ const replaceAssetPaths = async options => {
     to: (string, match) => {
       const normalized = match.replace(/^\/?/, '/');
       if (config.manifest[normalized] === undefined) {
-        console.error = `No entry in manifest.json for: ${normalized}`;
+        console.error(`No entry in manifest.json for: ${normalized}`);
         return match;
       }
       return match.startsWith('/')
